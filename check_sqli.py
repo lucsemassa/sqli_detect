@@ -1,4 +1,5 @@
 import re
+
 mysql_log_file = "/var/log/mysql/mysql.log"
 pattern_mysql = re.compile("[\'][%]?\w+\'[%]?[\']")
 
